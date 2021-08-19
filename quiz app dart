@@ -1,0 +1,744 @@
+/* THIS QUIS GAME IS DEVELOPED BY JAYESH KHUSHALANI 
+ * IN THE DART LANGUAGE
+ * THERE ARE THREE TOPICS IN QUIZ
+ * MOB NO = +91 7796026009
+*/
+void main()
+{
+  print('Welcome to the quiz');
+  print('Developed by Jayesh Khushalani');
+  print('which topic you will like to play quiz on');
+  print('1. Flutter');
+  print('2. Java');
+  print('3. Python');
+  
+  print('please enter your choice = 1');
+  int num = 1;
+    
+  if (num==1)
+  {
+    print('Welcome to the Flutter quiz');
+    print('your first question is');
+    for (var i = 0; i < 10; i++)
+    {
+	int gfg = i;
+	switch (gfg) 
+  {
+	case 1: 
+      {
+		print("1) What is Flutter?");
+        print("A. Flutter is an open-source DBMS");
+        print("B. Flutter is an open-source UI toolkit");
+        print("C. Flutter is an open-source backend toolkit");
+        print("D. All of the above");
+        print("please enetr your answer = B");
+        int opt = 2;  // user defined answer...
+        if (opt == 2)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 10 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	case 2: 
+      {
+		print("2) The first alpha version of Flutter was released in ________.");
+        print("A. May 2017");
+        print("B. May 2018");
+        print("C. May 2016");
+        print("D. May 2019");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 20 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	case 3: 
+      {
+		print("3) Flutter is developed by ________.");
+        print("A. Microsoft");
+        print("B. Facebook");
+        print("C. Google");
+        print("D. IBM");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 30 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 4: 
+      {
+		print("4) Is Flutter a programming language?");
+        print("A. Yes");
+        print("B. No");
+        print("C. May be");
+        print("D. Can't say");
+        print("please enetr your answer = B");
+        int opt = 2;  //user defined answer...
+        if (opt == 2)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 40 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 5: 
+      {
+		print("5) Flutter is mainly optimized for _________ that can run on both Android and iOS platforms.");
+        print("A. 2D mobile apps");
+        print("B. Desktop only");
+        print("C. Tablet only");
+        print("D. None of the above");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 50 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 6: 
+      {
+		print("6) Is Flutter a SDK?");
+        print("A. Yes");
+        print("B. No");
+        print("C. May be");
+        print("D. Can't say");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 60 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 7: 
+      {
+		print("7) SDK stands for _________.");
+        print("A. Software Development Knowledge");
+        print("B. Software Data Kit");
+        print("C. Software Development Kit");
+        print("D. Software Database Kit");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 70 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 8: 
+      {
+		print("8) What is Dart?");
+        print("A. Dart is a object-oriented programming language.");
+        print("B. Dart is used to create a frontend user interfaces.");
+        print("C. Both A and B");
+        print("D. None of the above");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 80 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 9: 
+      {
+		print("9) What are the best editors for Flutter development?");
+        print("A. Android Studio");
+        print("B. IntelliJ IDEA");
+        print("C. Visual Studio");
+        print("D. All of the above");
+        print("please enetr your answer = D");
+        int opt = 4;  //user defined answer...
+        if (opt == 4)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 90 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 10: 
+      {
+		print("10) The Dart language can be compiled __________.");
+        print("A. AOT");
+        print("B. JIT");
+        print("C. Both AOT and JIT");
+        print("D. None of the above");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 100 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	default: 
+      {
+		print("This is default case");
+        print("Please restart ");
+      } 
+      break;
+  }
+	}
+    
+  }
+  
+  else if (num==2)
+  {
+    print('Welcome to the Flutter quiz');
+    print('your first question is');
+    for (var i = 0; i < 10; i++)
+    {
+	int gfg = i;
+	switch (gfg) 
+  {
+	case 1: 
+      {
+		print("1) What is Flutter?");
+        print("A. Flutter is an open-source DBMS");
+        print("B. Flutter is an open-source UI toolkit");
+        print("C. Flutter is an open-source backend toolkit");
+        print("D. All of the above");
+        print("please enetr your answer = B");
+        int opt = 2;  // user defined answer...
+        if (opt == 2)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 10 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	case 2: 
+      {
+		print("2) The first alpha version of Flutter was released in ________.");
+        print("A. May 2017");
+        print("B. May 2018");
+        print("C. May 2016");
+        print("D. May 2019");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 20 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	case 3: 
+      {
+		print("3) Flutter is developed by ________.");
+        print("A. Microsoft");
+        print("B. Facebook");
+        print("C. Google");
+        print("D. IBM");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 30 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 4: 
+      {
+		print("4) Is Flutter a programming language?");
+        print("A. Yes");
+        print("B. No");
+        print("C. May be");
+        print("D. Can't say");
+        print("please enetr your answer = B");
+        int opt = 2;  //user defined answer...
+        if (opt == 2)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 40 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 5: 
+      {
+		print("5) Flutter is mainly optimized for _________ that can run on both Android and iOS platforms.");
+        print("A. 2D mobile apps");
+        print("B. Desktop only");
+        print("C. Tablet only");
+        print("D. None of the above");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 50 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 6: 
+      {
+		print("6) Is Flutter a SDK?");
+        print("A. Yes");
+        print("B. No");
+        print("C. May be");
+        print("D. Can't say");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 60 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 7: 
+      {
+		print("7) SDK stands for _________.");
+        print("A. Software Development Knowledge");
+        print("B. Software Data Kit");
+        print("C. Software Development Kit");
+        print("D. Software Database Kit");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 70 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 8: 
+      {
+		print("8) What is Dart?");
+        print("A. Dart is a object-oriented programming language.");
+        print("B. Dart is used to create a frontend user interfaces.");
+        print("C. Both A and B");
+        print("D. None of the above");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 80 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 9: 
+      {
+		print("9) What are the best editors for Flutter development?");
+        print("A. Android Studio");
+        print("B. IntelliJ IDEA");
+        print("C. Visual Studio");
+        print("D. All of the above");
+        print("please enetr your answer = D");
+        int opt = 4;  //user defined answer...
+        if (opt == 4)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 90 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 10: 
+      {
+		print("10) The Dart language can be compiled __________.");
+        print("A. AOT");
+        print("B. JIT");
+        print("C. Both AOT and JIT");
+        print("D. None of the above");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 100 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	default: 
+      {
+		print("This is default case");
+        print("Please restart ");
+      } 
+      break;
+  }
+	}
+    
+    
+  }
+  
+  else if (num==3)
+  {
+    print('Welcome to the Flutter quiz');
+    print('your first question is');
+    for (var i = 0; i < 10; i++)
+    {
+	int gfg = i;
+	switch (gfg) 
+  {
+	case 1: 
+      {
+		print("1) What is Flutter?");
+        print("A. Flutter is an open-source DBMS");
+        print("B. Flutter is an open-source UI toolkit");
+        print("C. Flutter is an open-source backend toolkit");
+        print("D. All of the above");
+        print("please enetr your answer = B");
+        int opt = 2;  // user defined answer...
+        if (opt == 2)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 10 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	case 2: 
+      {
+		print("2) The first alpha version of Flutter was released in ________.");
+        print("A. May 2017");
+        print("B. May 2018");
+        print("C. May 2016");
+        print("D. May 2019");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 20 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	case 3: 
+      {
+		print("3) Flutter is developed by ________.");
+        print("A. Microsoft");
+        print("B. Facebook");
+        print("C. Google");
+        print("D. IBM");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 30 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 4: 
+      {
+		print("4) Is Flutter a programming language?");
+        print("A. Yes");
+        print("B. No");
+        print("C. May be");
+        print("D. Can't say");
+        print("please enetr your answer = B");
+        int opt = 2;  //user defined answer...
+        if (opt == 2)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 40 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 5: 
+      {
+		print("5) Flutter is mainly optimized for _________ that can run on both Android and iOS platforms.");
+        print("A. 2D mobile apps");
+        print("B. Desktop only");
+        print("C. Tablet only");
+        print("D. None of the above");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 50 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 6: 
+      {
+		print("6) Is Flutter a SDK?");
+        print("A. Yes");
+        print("B. No");
+        print("C. May be");
+        print("D. Can't say");
+        print("please enetr your answer = A");
+        int opt = 1;  //user defined answer...
+        if (opt == 1)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 60 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 7: 
+      {
+		print("7) SDK stands for _________.");
+        print("A. Software Development Knowledge");
+        print("B. Software Data Kit");
+        print("C. Software Development Kit");
+        print("D. Software Database Kit");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 70 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 8: 
+      {
+		print("8) What is Dart?");
+        print("A. Dart is a object-oriented programming language.");
+        print("B. Dart is used to create a frontend user interfaces.");
+        print("C. Both A and B");
+        print("D. None of the above");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 80 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 9: 
+      {
+		print("9) What are the best editors for Flutter development?");
+        print("A. Android Studio");
+        print("B. IntelliJ IDEA");
+        print("C. Visual Studio");
+        print("D. All of the above");
+        print("please enetr your answer = D");
+        int opt = 4;  //user defined answer...
+        if (opt == 4)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 90 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+  case 10: 
+      {
+		print("10) The Dart language can be compiled __________.");
+        print("A. AOT");
+        print("B. JIT");
+        print("C. Both AOT and JIT");
+        print("D. None of the above");
+        print("please enetr your answer = C");
+        int opt = 3;  //user defined answer...
+        if (opt == 3)
+        {
+          print("congrulations your answer is wright");
+          print("you have won 100 points");
+          print("your next question is");
+        }
+        else
+        {
+          print("You have loss");
+          print("Better luck next time");
+        }
+      } 
+      break;
+	default: 
+      {
+		print("This is default case");
+        print("Please restart ");
+      } 
+      break;
+  }
+	}
+    
+  }
+  
+  else
+  {
+    print('please enter a valid choice');
+  }
+}
+
